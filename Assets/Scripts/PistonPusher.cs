@@ -6,6 +6,7 @@ public class PistonPusher : MonoBehaviour
 {
     private Rigidbody2D myRb;
     private float randomPushTimer;
+    public float pushForce = 8.5f;
 
     private void Start() {
         // Set timer for piston launch to random value
@@ -20,7 +21,7 @@ public class PistonPusher : MonoBehaviour
         if (randomPushTimer <= 0.0f) {
 
             // ...apply sudden upward force on the piston head
-            myRb.AddForce(Vector2.up * 8.5f, ForceMode2D.Impulse);
+            myRb.AddForce(Vector2.up * pushForce, ForceMode2D.Impulse);
             
             // ...and reset piston launch timer
             randomPushTimer = Random.Range(1.5f, 5.0f);
