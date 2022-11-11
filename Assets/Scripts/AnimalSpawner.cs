@@ -6,9 +6,10 @@ public class AnimalSpawner : MonoBehaviour
 
     
 {
-    //the animal prefabs
+    
     public GameObject[] animalPrefabs;
-
+    public float tubSize = 10f;
+    public float animalScale = .5f;
 
 
     // Start is called before the first frame update
@@ -36,8 +37,17 @@ public class AnimalSpawner : MonoBehaviour
     {
         GameObject go = animalPrefabs[Random.Range(0, animalPrefabs.Length)];
         GameObject animal = Instantiate(go);
-        animal.transform.localScale= new Vector3(.2f, .2f, .2f);
-        animal.transform.position = this.gameObject.transform.position;
+        animal.transform.localScale = new Vector3(.2f, .2f, .2f);
+        animal.transform.position = this.gameObject.transform.position + new Vector3(Random.Range(-tubsize/2, tubsize/2),0,0);
+
+
+    }
+
+    //spawns a parent object and then spawns an animal within it
+    public void spawnAnimalAsChild()
+    {
+        GameObject parent = new GameObject();
+       
 
     }
 
