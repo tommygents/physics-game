@@ -415,7 +415,11 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
+<<<<<<< HEAD
   m_Mass: 50
+=======
+  m_Mass: 5
+>>>>>>> ded046015d7496669645171b876f379dfb2fe48a
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1

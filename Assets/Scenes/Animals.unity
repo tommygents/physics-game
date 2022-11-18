@@ -178,10 +178,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: CatParent
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3404841944566523247, guid: 266ad7f94e30148b08fe6dc2c78f883b, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+=======
+>>>>>>> ded046015d7496669645171b876f379dfb2fe48a
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 266ad7f94e30148b08fe6dc2c78f883b, type: 3}
 --- !u!1001 &78548137
@@ -195,10 +198,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: GiraffeParent
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 989700032736788814, guid: fce224a7a9cf8425084dbeb0ab3a2c42, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+=======
+>>>>>>> ded046015d7496669645171b876f379dfb2fe48a
     - target: {fileID: 3619927020664997601, guid: fce224a7a9cf8425084dbeb0ab3a2c42, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -304,6 +310,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: LionParent
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 2613328680483055243, guid: 303203d73c4394d41ac51f7588a85c02, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -378,6 +385,10 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 303203d73c4394d41ac51f7588a85c02, type: 3}
+>>>>>>> ded046015d7496669645171b876f379dfb2fe48a
 --- !u!1 &207214087
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,12 +401,20 @@ GameObject:
   - component: {fileID: 207214089}
   - component: {fileID: 207214088}
   m_Layer: 0
+<<<<<<< HEAD
   m_Name: RainNoSplash
+=======
+  m_Name: Rain
+>>>>>>> ded046015d7496669645171b876f379dfb2fe48a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
   m_IsActive: 0
+=======
+  m_IsActive: 1
+>>>>>>> ded046015d7496669645171b876f379dfb2fe48a
 --- !u!199 &207214088
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -1799,7 +1818,11 @@ ParticleSystem:
   UVModule:
     serializedVersion: 2
     enabled: 0
+<<<<<<< HEAD
     mode: 1
+=======
+    mode: 0
+>>>>>>> ded046015d7496669645171b876f379dfb2fe48a
     timeMode: 0
     fps: 30
     frameOverTime:
@@ -1917,6 +1940,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
+<<<<<<< HEAD
     - sprite: {fileID: 21300000, guid: 97be6b0006ee24c93926e172adaa58e3, type: 3}
     - sprite: {fileID: 21300000, guid: 5a58f1c4428f0486693af59d9b8780d5, type: 3}
     - sprite: {fileID: 21300000, guid: a9b2ba15596d745ecb0ecf9b495c8221, type: 3}
@@ -1925,6 +1949,9 @@ ParticleSystem:
     - sprite: {fileID: 21300000, guid: dffc03ee4a08a421596d66c97ab61442, type: 3}
     - sprite: {fileID: 21300000, guid: 676d6ffa6db5c430f945ad985d87b1c9, type: 3}
     - sprite: {fileID: 21300000, guid: b8ef67bd5cfcb4c1f8083716468620d0, type: 3}
+=======
+    - sprite: {fileID: 0}
+>>>>>>> ded046015d7496669645171b876f379dfb2fe48a
     flipU: 0
     flipV: 0
   VelocityModule:
@@ -4056,8 +4083,13 @@ ParticleSystem:
   CollisionModule:
     enabled: 1
     serializedVersion: 4
+<<<<<<< HEAD
     type: 1
     collisionMode: 1
+=======
+    type: 0
+    collisionMode: 0
+>>>>>>> ded046015d7496669645171b876f379dfb2fe48a
     colliderForce: 0
     multiplyColliderForceByParticleSize: 0
     multiplyColliderForceByParticleSpeed: 0
@@ -4119,7 +4151,11 @@ ParticleSystem:
     m_Bounce:
       serializedVersion: 2
       minMaxState: 0
+<<<<<<< HEAD
       scalar: 0
+=======
+      scalar: 1
+>>>>>>> ded046015d7496669645171b876f379dfb2fe48a
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -4172,7 +4208,11 @@ ParticleSystem:
     m_EnergyLossOnCollision:
       serializedVersion: 2
       minMaxState: 0
+<<<<<<< HEAD
       scalar: 1
+=======
+      scalar: 0.5
+>>>>>>> ded046015d7496669645171b876f379dfb2fe48a
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -5197,6 +5237,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &323656494
 GameObject:
   m_ObjectHideFlags: 0
@@ -5439,6 +5480,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 348657007}
   m_CullTransparentMesh: 1
+=======
+>>>>>>> ded046015d7496669645171b876f379dfb2fe48a
 --- !u!1 &367968821
 GameObject:
   m_ObjectHideFlags: 0
@@ -5587,6 +5630,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+<<<<<<< HEAD
 --- !u!1 &373357780
 GameObject:
   m_ObjectHideFlags: 0
@@ -10507,6 +10551,8 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+=======
+>>>>>>> ded046015d7496669645171b876f379dfb2fe48a
 --- !u!1001 &717083314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10600,7 +10646,11 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
+<<<<<<< HEAD
   m_BackGroundColor: {r: 0.5066305, g: 0.5627521, b: 0.6509434, a: 0}
+=======
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+>>>>>>> ded046015d7496669645171b876f379dfb2fe48a
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -10641,7 +10691,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 871861137}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: -0.95, y: 0.05, z: -10}
+=======
+  m_LocalPosition: {x: -1.69, y: 0, z: -10}
+>>>>>>> ded046015d7496669645171b876f379dfb2fe48a
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10659,10 +10713,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: DogParent
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 1818206451767722019, guid: 5717bf239a8b546348d797285c036bff, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+=======
+>>>>>>> ded046015d7496669645171b876f379dfb2fe48a
     - target: {fileID: 7498107800032955742, guid: 5717bf239a8b546348d797285c036bff, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -10764,10 +10821,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElephantParent
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 1913168635323520341, guid: b18d007d2e9594cb39916ae19b2dad96, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+=======
+>>>>>>> ded046015d7496669645171b876f379dfb2fe48a
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b18d007d2e9594cb39916ae19b2dad96, type: 3}
 --- !u!1001 &1490165720
@@ -10781,10 +10841,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: PigParent
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 6577628091617244710, guid: 14e99aad2a45d48cbbcd0e153030f860, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+=======
+>>>>>>> ded046015d7496669645171b876f379dfb2fe48a
     - target: {fileID: 8934248109127310842, guid: 14e99aad2a45d48cbbcd0e153030f860, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -10831,6 +10894,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 14e99aad2a45d48cbbcd0e153030f860, type: 3}
+<<<<<<< HEAD
 --- !u!1 &2134468428
 GameObject:
   m_ObjectHideFlags: 0
@@ -10868,3 +10932,5 @@ RectTransform:
   m_AnchoredPosition: {x: 0.5, y: 0}
   m_SizeDelta: {x: -9, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+=======
+>>>>>>> ded046015d7496669645171b876f379dfb2fe48a
