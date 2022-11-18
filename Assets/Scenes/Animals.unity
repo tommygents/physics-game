@@ -249,10 +249,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8134089084213942089, guid: fce224a7a9cf8425084dbeb0ab3a2c42, type: 3}
-      propertyPath: m_Name
-      value: GiraffeBodyV4
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce224a7a9cf8425084dbeb0ab3a2c42, type: 3}
 --- !u!1001 &98618908

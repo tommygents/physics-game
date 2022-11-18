@@ -7,8 +7,12 @@ public class PianoManager : MonoBehaviour
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
     public float pushForce = 8.5f;
 >>>>>>> ded046015d7496669645171b876f379dfb2fe48a
+=======
+    public float pushForce = 85f;
+>>>>>>> efb30ec476dff6c5b1bf62daf4a0a1d313c363ea
     private void Start() {
 
     }

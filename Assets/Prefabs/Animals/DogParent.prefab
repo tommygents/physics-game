@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7498107800032955742}
+  - component: {fileID: 8383079107249835795}
   m_Layer: 0
   m_Name: DogParent
   m_TagString: Untagged
@@ -32,6 +33,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8383079107249835795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818206451767722019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7853bcffe75211f47acbe838ee7629b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2694011606105178282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -193,6 +206,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6931e60a210554908b11f30d0ea8c0da, type: 3}
+--- !u!1 &3560347650722746928 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1444503309851562650, guid: 6931e60a210554908b11f30d0ea8c0da, type: 3}
+  m_PrefabInstance: {fileID: 2694011606105178282}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &437114278084641163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3560347650722746928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7853bcffe75211f47acbe838ee7629b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &3560347650722746940 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1444503309851562646, guid: 6931e60a210554908b11f30d0ea8c0da, type: 3}
