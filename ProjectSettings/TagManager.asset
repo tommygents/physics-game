@@ -3,15 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Piston
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Invisible Ceiling
   - Water
   - UI
-  - 
+  - Boat, Animals
   - 
   - 
   - 
