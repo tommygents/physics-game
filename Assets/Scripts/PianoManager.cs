@@ -5,7 +5,7 @@ using UnityEngine;
 public class PianoManager : MonoBehaviour
 {
 
-    public float pushForce = 8.5f;
+    public float pushForce = 85f;
     private void Start() {
 
     }

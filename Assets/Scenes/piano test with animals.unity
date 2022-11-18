@@ -130,9 +130,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1721622021}
     m_Modifications:
+    - target: {fileID: 1816366016842286799, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2533015186521831524, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
       propertyPath: m_Name
       value: PianoKey
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533015186521831524, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
+      propertyPath: m_TagString
+      value: Piston
       objectReference: {fileID: 0}
     - target: {fileID: 3591151725284359738, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
       propertyPath: m_RootOrder
@@ -389,9 +397,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1721622021}
     m_Modifications:
+    - target: {fileID: 1816366016842286799, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2533015186521831524, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
       propertyPath: m_Name
       value: PianoKey (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533015186521831524, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
+      propertyPath: m_TagString
+      value: Piston
       objectReference: {fileID: 0}
     - target: {fileID: 3591151725284359738, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
       propertyPath: m_RootOrder
@@ -511,9 +527,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1721622021}
     m_Modifications:
+    - target: {fileID: 1816366016842286799, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2533015186521831524, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
       propertyPath: m_Name
       value: PianoKey (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533015186521831524, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
+      propertyPath: m_TagString
+      value: Piston
       objectReference: {fileID: 0}
     - target: {fileID: 3591151725284359738, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
       propertyPath: m_RootOrder
@@ -568,9 +592,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1721622021}
     m_Modifications:
+    - target: {fileID: 1816366016842286799, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2533015186521831524, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
       propertyPath: m_Name
       value: PianoKey (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533015186521831524, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
+      propertyPath: m_TagString
+      value: Piston
       objectReference: {fileID: 0}
     - target: {fileID: 3591151725284359738, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
       propertyPath: m_RootOrder
@@ -625,9 +657,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1721622021}
     m_Modifications:
+    - target: {fileID: 1816366016842286799, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2533015186521831524, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
       propertyPath: m_Name
       value: PianoKey (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533015186521831524, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
+      propertyPath: m_TagString
+      value: Piston
       objectReference: {fileID: 0}
     - target: {fileID: 3591151725284359738, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
       propertyPath: m_RootOrder
@@ -682,9 +722,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1721622021}
     m_Modifications:
+    - target: {fileID: 1816366016842286799, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2533015186521831524, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
       propertyPath: m_Name
       value: PianoKey (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533015186521831524, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
+      propertyPath: m_TagString
+      value: Piston
       objectReference: {fileID: 0}
     - target: {fileID: 3591151725284359738, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
       propertyPath: m_RootOrder
@@ -828,9 +876,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1721622021}
     m_Modifications:
+    - target: {fileID: 1816366016842286799, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2533015186521831524, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
       propertyPath: m_Name
       value: PianoKey (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533015186521831524, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
+      propertyPath: m_TagString
+      value: Piston
       objectReference: {fileID: 0}
     - target: {fileID: 3591151725284359738, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
       propertyPath: m_RootOrder
@@ -1047,7 +1103,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1150,7 +1206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffefae2205c6d5d438f0d627f37d8cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pushForce: 85
+  pushForce: 250
 --- !u!4 &1723650681 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3591151725284359738, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
@@ -1302,7 +1358,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 50
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -1390,9 +1446,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1721622021}
     m_Modifications:
+    - target: {fileID: 1816366016842286799, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2533015186521831524, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
       propertyPath: m_Name
       value: PianoKey (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533015186521831524, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
+      propertyPath: m_TagString
+      value: Piston
       objectReference: {fileID: 0}
     - target: {fileID: 3591151725284359738, guid: a69b7eb2bdbba7d48ab0d600703c5d2d, type: 3}
       propertyPath: m_RootOrder
