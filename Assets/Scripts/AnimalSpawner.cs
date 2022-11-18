@@ -38,7 +38,7 @@ public class AnimalSpawner : MonoBehaviour
         GameObject go = animalPrefabs[Random.Range(0, animalPrefabs.Length)];
         GameObject animal = Instantiate(go);
         animal.transform.localScale = new Vector3(.2f, .2f, .2f);
-        animal.transform.position = this.gameObject.transform.position + new Vector3(Random.Range(-tubsize/2, tubsize/2),0,0);
+        animal.transform.position = this.gameObject.transform.position + new Vector3(Random.Range(-tubSize/2, tubSize/2),0,0);
 
 
     }
