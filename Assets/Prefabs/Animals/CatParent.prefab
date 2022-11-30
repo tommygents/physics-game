@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3404841944566523246}
-  - component: {fileID: 7403331101206372197}
   - component: {fileID: 2147116130230745611}
   m_Layer: 0
   m_Name: CatParent
@@ -34,23 +33,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7403331101206372197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3404841944566523247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7853bcffe75211f47acbe838ee7629b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  goalTime: 0.3
-  inBoat: 0
-  timeInBoat: 0
-  gameManager: {fileID: 0}
-  debugGameManagerSet: 0
 --- !u!82 &2147116130230745611
 AudioSource:
   m_ObjectHideFlags: 0

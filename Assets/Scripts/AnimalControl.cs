@@ -44,13 +44,13 @@ public class AnimalControl : MonoBehaviour
     }
 
 
-    public void OnTriggerEnter2D(Collider2D other)
+   /* public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Boat"))
         {
             inBoat = true;
         }
-    }
+    } */
     
     //Acts as a timer to score and delete animals who are in the boat
     //public void OnTriggerStay2D(Collider2D other)
@@ -70,7 +70,8 @@ public class AnimalControl : MonoBehaviour
     }
 
 
-    public void OnTriggerExit2D(Collider2D other)
+   // public void OnTriggerExit2D(Collider2D other)
+    public void OnCollisionExit2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Boat"))
         {
