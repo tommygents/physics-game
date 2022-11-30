@@ -5,15 +5,9 @@ using UnityEngine;
 public class BoatController : MonoBehaviour
 {
     [SerializeField] private float rotationAmount;
-    
-    /*
-    private void FixedUpdate() {
-        if (Input.GetKey(KeyCode.D)) {
-            transform.Rotate(0, 0, -rotationAmount);
-        }
-        else if (Input.GetKey(KeyCode.A)) {
-            transform.Rotate(0, 0, rotationAmount);
-        }
+
+    private void Update() {
+        //Debug.Log("X: " + transform.localRotation.x);
+        //Debug.Log("Y: " + transform.localRotation.y);
     }
-    */
 }

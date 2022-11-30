@@ -5,35 +5,60 @@ using UnityEngine;
 public class PianoManager : MonoBehaviour
 {
 
-    public float pushForce = 85f;
-    private void Start() {
+    [SerializeField] private float pushForce = 5.5f;
 
+    private List<Rigidbody2D> pianoKeys;
+
+    private void Start() {
+        pianoKeys = new List<Rigidbody2D>();
+        foreach (Transform child in transform) {
+            pianoKeys.Add(child.GetComponent<Rigidbody2D>());
+        }
+    }
+
+    private void OnGUI() {
+        if (Input.anyKeyDown) {
+            Debug.Log(Event.current);
+        }
     }
 
     private void Update() {
-        if (Input.GetKeyDown(KeyCode.Q)) {
-            transform.GetChild(0).GetComponent<Rigidbody2D>().AddForce(Vector2.up * pushForce, ForceMode2D.Impulse);
+        if (Input.GetKey(KeyCode.Q)) {
+            WaveMaker(0);
         }        
-        if (Input.GetKeyDown(KeyCode.W)) {
-            transform.GetChild(1).GetComponent<Rigidbody2D>().AddForce(Vector2.up * pushForce, ForceMode2D.Impulse);
+        if (Input.GetKey(KeyCode.W)) {
+            WaveMaker(1);
         }
-        if (Input.GetKeyDown(KeyCode.E)) {
-            transform.GetChild(2).GetComponent<Rigidbody2D>().AddForce(Vector2.up * pushForce, ForceMode2D.Impulse);
+        if (Input.GetKey(KeyCode.E)) {
+            WaveMaker(2);
         }
-        if (Input.GetKeyDown(KeyCode.R)) {
-            transform.GetChild(3).GetComponent<Rigidbody2D>().AddForce(Vector2.up * pushForce, ForceMode2D.Impulse);
+        if (Input.GetKey(KeyCode.I)) {
+            WaveMaker(3);
         }
-        if (Input.GetKeyDown(KeyCode.A)) {
-            transform.GetChild(4).GetComponent<Rigidbody2D>().AddForce(Vector2.up * pushForce, ForceMode2D.Impulse);
+        if (Input.GetKey(KeyCode.O)) {
+            WaveMaker(4);
         }
-        if (Input.GetKeyDown(KeyCode.S)) {
-            transform.GetChild(5).GetComponent<Rigidbody2D>().AddForce(Vector2.up * pushForce, ForceMode2D.Impulse);
+        if (Input.GetKey(KeyCode.P)) {
+            WaveMaker(5);
         }
-        if (Input.GetKeyDown(KeyCode.D)) {
-            transform.GetChild(6).GetComponent<Rigidbody2D>().AddForce(Vector2.up * pushForce, ForceMode2D.Impulse);
+    }
+
+    // Makes a wave on a first set of 3 piano keys and its corresponding second set, specified by the piano key (child) index relative to the parent piano manager object
+    private void WaveMaker(int childIndex) {
+
+        /*
+        if (childIndex > 0) {
+            pianoKeys[childIndex - 1].AddForce(Vector2.up * (pushForce / 2), ForceMode2D.Impulse);
         }
-        if (Input.GetKeyDown(KeyCode.F)) {
-            transform.GetChild(7).GetComponent<Rigidbody2D>().AddForce(Vector2.up * pushForce, ForceMode2D.Impulse);
+        */
+        pianoKeys[childIndex].AddForce(Vector2.up * pushForce, ForceMode2D.Impulse);
+        /*
+        if (childIndex < (pianoKeys.Count - 1)) {
+            pianoKeys[childIndex + 1].AddForce(Vector2.up * (pushForce / 2), ForceMode2D.Impulse);
+        }
+        */
+        if ((childIndex + 6) <= (pianoKeys.Count - 1)) {
+            WaveMaker(childIndex + 6);
         }
     }
 }
