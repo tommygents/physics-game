@@ -13,6 +13,7 @@ public class AnimalControl : MonoBehaviour
     public bool inBoat = false;
     [SerializeField] private float timeInBoat = 0;
 
+
     //Utility variables
     public GameManager gameManager;
     public bool debugGameManagerSet = false;
@@ -24,12 +25,10 @@ public class AnimalControl : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
-    private void OnCollisionEnter2D(Collision2D other)
+
+    public void OnTriggerEnter2D(Collider2D other)
+    //private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Boat"))
         {
@@ -53,8 +52,8 @@ public class AnimalControl : MonoBehaviour
     } */
     
     //Acts as a timer to score and delete animals who are in the boat
-    //public void OnTriggerStay2D(Collider2D other)
-    public void OnCollisionStay2D(Collision2D other)   
+    public void OnTriggerStay2D(Collider2D other)
+    //public void OnCollisionStay2D(Collision2D other)   
     {
         
         if (other.gameObject.CompareTag("Boat"))
@@ -62,6 +61,10 @@ public class AnimalControl : MonoBehaviour
             timeInBoat += Time.deltaTime;
             if (timeInBoat >= goalTime)
             {
+
+                this.gameManager.IncrementScore();
+                AudioSource ac = GetComponent<AudioSource>();
+                ac.Play();
                 Destroy(transform.parent.gameObject);
                 Destroy(gameObject);
             }
@@ -70,8 +73,8 @@ public class AnimalControl : MonoBehaviour
     }
 
 
-   // public void OnTriggerExit2D(Collider2D other)
-    public void OnCollisionExit2D(Collision2D other)
+   public void OnTriggerExit2D(Collider2D other)
+    //public void OnCollisionExit2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Boat"))
         {
@@ -106,7 +109,11 @@ public class AnimalControl : MonoBehaviour
     public void OnDestroy()
     {
         AudioSource ac = GetComponent<AudioSource>();
-        this.gameManager.IncrementScore();
-        ac.Play();
+        if (inBoat)
+        {
+
+        //this.gameManager.IncrementScore();
+        //ac.Play();
+        }
     }
 }
