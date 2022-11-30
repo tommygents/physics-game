@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Piston
   - Boat
+  - ScoreText
   layers:
   - Default
   - TransparentFX

@@ -11,6 +11,7 @@ public class PianoManager : MonoBehaviour
 
     private void Start() {
         pianoKeys = new List<Rigidbody2D>();
+        // Rigidbody2D[] pianoKeys = this.GetComponentsInChildren<Rigidbody2D>();
         foreach (Transform child in transform) {
             pianoKeys.Add(child.GetComponent<Rigidbody2D>());
         }

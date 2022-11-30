@@ -62,8 +62,8 @@ public class AnimalControl : MonoBehaviour
             timeInBoat += Time.deltaTime;
             if (timeInBoat >= goalTime)
             {
-                this.gameManager.IncrementScore();
-                Destroy(this.transform.parent.gameObject);
+                Destroy(transform.parent.gameObject);
+                Destroy(gameObject);
             }
         }
 
@@ -100,5 +100,12 @@ public class AnimalControl : MonoBehaviour
         {
             Destroy(this.gameObject); 
         }
+    }
+
+    public void OnDestroy()
+    {
+        AudioSource ac = GetComponent<AudioSource>();
+        this.gameManager.IncrementScore();
+        ac.Play();
     }
 }

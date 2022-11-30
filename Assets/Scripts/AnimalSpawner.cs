@@ -12,6 +12,9 @@ public class AnimalSpawner : MonoBehaviour
     public float animalScale = .5f;
     private int thisLayer;
     public GameManager gameManager;
+    public float goalTime = .3f;
+
+
 
     //debugging variables
     
@@ -49,6 +52,7 @@ public class AnimalSpawner : MonoBehaviour
         AnimalControl ac = animal.GetComponent<AnimalControl>();
         //ac.SetGameManager(gameManager);
         SetGameManagerRecursive(animal, gameManager);
+        ac.goalTime = goalTime;
 
 
     }
