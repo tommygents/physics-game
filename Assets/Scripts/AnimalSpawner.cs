@@ -10,19 +10,13 @@ public class AnimalSpawner : MonoBehaviour
     public GameObject[] animalPrefabs;
     public float tubSize = 10f;
     public float animalScale = .5f;
-<<<<<<< HEAD
-=======
     private int thisLayer;
->>>>>>> ded046015d7496669645171b876f379dfb2fe48a
 
 
     // Start is called before the first frame update
     void Start()
     {
-<<<<<<< HEAD
-=======
         thisLayer = this.gameObject.layer;  
->>>>>>> ded046015d7496669645171b876f379dfb2fe48a
         InvokeRepeating("spawnAnimalInvoke", 5, 1);
     }
 
@@ -45,18 +39,13 @@ public class AnimalSpawner : MonoBehaviour
     {
         GameObject go = animalPrefabs[Random.Range(0, animalPrefabs.Length)];
         GameObject animal = Instantiate(go);
-<<<<<<< HEAD
-=======
         SetGameLayerRecursive(animal, thisLayer);
->>>>>>> ded046015d7496669645171b876f379dfb2fe48a
         animal.transform.localScale = new Vector3(.2f, .2f, .2f);
         animal.transform.position = this.gameObject.transform.position + new Vector3(Random.Range(-tubSize/2, tubSize/2),0,0);
 
 
     }
 
-<<<<<<< HEAD
-=======
     //updates the layer on each animal
     private void SetGameLayerRecursive(GameObject _go, int _layer)
     {
@@ -72,7 +61,6 @@ public class AnimalSpawner : MonoBehaviour
         }
     }
 
->>>>>>> ded046015d7496669645171b876f379dfb2fe48a
     //spawns a parent object and then spawns an animal within it
     public void spawnAnimalAsChild()
     {

@@ -18,7 +18,7 @@ public class AnimalControl : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.Log("Animal Collision");
+        //Debug.Log("Animal Collision");
         if (other.gameObject.CompareTag("Piston"))
         {
             
