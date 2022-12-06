@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4260451347663701097}
   - component: {fileID: 4260451347663701098}
   - component: {fileID: 4260451347663701103}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CatTail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 4260451348033801356}
   - component: {fileID: 4260451348033801357}
   - component: {fileID: 4260451348033801363}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CatHead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 4260451348635912333}
   - component: {fileID: 4260451348635912338}
   - component: {fileID: 4260451348635912339}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cat
   m_TagString: Untagged
   m_Icon: {fileID: 0}

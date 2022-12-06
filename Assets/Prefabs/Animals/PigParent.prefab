@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8934248109127310842}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PigParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,6 +88,10 @@ PrefabInstance:
       value: pig
       objectReference: {fileID: 0}
     - target: {fileID: 5326640491883750306, guid: d79bd29503b8244a9871cb9e6afdfb3b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5326640491883750306, guid: d79bd29503b8244a9871cb9e6afdfb3b, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -116,7 +120,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalTime: 0.3
-  inBoat: 0
   timeInBoat: 0
   gameManager: {fileID: 0}
   debugGameManagerSet: 0

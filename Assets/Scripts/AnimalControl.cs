@@ -10,27 +10,34 @@ public class AnimalControl : MonoBehaviour
     
     //Time variables
     public float goalTime = .3f;
-    public bool inBoat = false;
     [SerializeField] private float timeInBoat = 0;
 
     //Utility variables
     public GameManager gameManager;
     public bool debugGameManagerSet = false;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    // Timer for when to delete animal and add score; flag to check if animal is in boat
+    private float scoreTimer;
+    private bool inBoat;
+
+    private void Start() {
+        scoreTimer = 0.5f;
+        inBoat = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    private void Update() {
+        if (inBoat) {
+            scoreTimer -= Time.deltaTime;
+            if (scoreTimer <= 0f) {
+                DestroyAnimal();
+                this.gameManager.IncrementScore();
+                scoreTimer = 0.5f;
+                inBoat = false;
+            }
+        }
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
-    {
+    private void OnCollisionEnter2D(Collision2D other) {
         if (other.gameObject.CompareTag("Boat"))
         {
             inBoat = true;
@@ -54,6 +61,7 @@ public class AnimalControl : MonoBehaviour
     
     //Acts as a timer to score and delete animals who are in the boat
     //public void OnTriggerStay2D(Collider2D other)
+    /*
     public void OnCollisionStay2D(Collision2D other)   
     {
         
@@ -68,6 +76,7 @@ public class AnimalControl : MonoBehaviour
         }
 
     }
+    */
 
 
    // public void OnTriggerExit2D(Collider2D other)
@@ -76,7 +85,8 @@ public class AnimalControl : MonoBehaviour
         if (other.gameObject.CompareTag("Boat"))
         {
             inBoat = false;
-            timeInBoat = 0;  
+            scoreTimer = 0.5f;
+            //timeInBoat = 0;  
         }
         
     }
@@ -106,7 +116,7 @@ public class AnimalControl : MonoBehaviour
     public void OnDestroy()
     {
         AudioSource ac = GetComponent<AudioSource>();
-        this.gameManager.IncrementScore();
+        //this.gameManager.IncrementScore();
         ac.Play();
     }
 }

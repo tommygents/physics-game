@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4236500744340305526}
   - component: {fileID: 4236500744340305521}
   - component: {fileID: 4236500744340305520}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LionTail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 4236500744412053698}
   - component: {fileID: 4236500744412053709}
   - component: {fileID: 4236500744412053708}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LionButt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 4236500745225477983}
   - component: {fileID: 4236500745225477977}
   - component: {fileID: 4236500745225477976}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -469,7 +469,7 @@ GameObject:
   - component: {fileID: 4236500745681612709}
   - component: {fileID: 4236500745681612708}
   - component: {fileID: 4236500745681612711}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LionHead
   m_TagString: Untagged
   m_Icon: {fileID: 0}

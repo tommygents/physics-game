@@ -6,20 +6,13 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
 
-    public int score = 0;
+    public int score;
     public TextMeshProUGUI scoreText;
 
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        score = 0;
     }
 
     public void IncrementScore()
