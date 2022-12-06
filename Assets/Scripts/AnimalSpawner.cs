@@ -42,10 +42,10 @@ public class AnimalSpawner : MonoBehaviour
         SetGameLayerRecursive(animal, thisLayer);
         animal.transform.localScale = new Vector3(.5f, .5f, .5f);
         animal.transform.position = this.gameObject.transform.position + new Vector3(Random.Range(-tubSize/2, tubSize/2),0,0);
-        AnimalControl ac = animal.GetComponent<AnimalControl>();
+        //AnimalControl ac = animal.GetComponent<AnimalControl>();
         //ac.SetGameManager(gameManager);
         SetGameManagerRecursive(animal, gameManager);
-        ac.goalTime = goalTime;
+        
 
 
     }
@@ -71,6 +71,7 @@ public class AnimalSpawner : MonoBehaviour
         foreach (AnimalControl ac in _ac)
         {
             ac.SetGameManager(_gm);
+            ac.goalTime = goalTime;
 
         }
     }

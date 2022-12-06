@@ -46,7 +46,7 @@ public class AnimalControl : MonoBehaviour
         if (other.gameObject.CompareTag("Piston"))
         {
 
-            Destroy(this.transform.parent.gameObject);
+            DestroyAnimal();
         }
     }
 
