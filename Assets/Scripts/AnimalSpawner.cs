@@ -14,7 +14,7 @@ public class AnimalSpawner : MonoBehaviour
     public GameManager gameManager;
     public float goalTime = .3f;
     public float delayTime = .5f;
-
+    public bool animalsSpawning = true;
     
     public int numAnimalsMax = 3;
 
@@ -40,7 +40,7 @@ public class AnimalSpawner : MonoBehaviour
     public IEnumerator Spawn()
     {
         Debug.Log("Co-routine looped");
-        while (true)
+        while (animalsSpawning)
         {
             spawnAnimalCoRoutine();
             yield return new WaitForSeconds(delayTime);
@@ -79,7 +79,7 @@ public class AnimalSpawner : MonoBehaviour
         //ac.SetGameManager(gameManager);
         SetGameManagerRecursive(animal, gameManager);
         gameManager.numAnimals++;
-
+        //SetAudioClip(animal);
 
 
     }
@@ -110,10 +110,17 @@ public class AnimalSpawner : MonoBehaviour
         }
     }
 
+    private void SetAudioClip(GameObject _go)
+    {
+        GameObject _cgo = _go.GetComponentInChildren<Transform>().gameObject;
+        AnimalControl _ac = _cgo.GetComponent<AnimalControl>();
+        AudioSource _as = _cgo.GetComponent<AudioSource>();
+        _ac.ac = _as;
 
-    //Step one is to create a spawner that spawns animals at random intervals. Then I can think about object pooling.
-    //the goal for this script is to use object-pooling to manage the animals that are getting spawned into the game.
-    //that means I need to create a certain number of the animals, instantiate them, and 
+        
+    }
+
+    
 
 
 
