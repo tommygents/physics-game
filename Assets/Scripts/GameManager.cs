@@ -12,21 +12,23 @@ public class GameManager : MonoBehaviour
     public int numAnimalsMax = 3;
 
     [SerializeField] private SpriteRenderer island;
-    private IslandMover islandScript;
     private float gameTimer;
+    
+    public bool gameEndCheck;
 
-    private void Start()
-    {
+    private void Start() {
         gameTimer = 120f;
         score = 0;
-        islandScript = island.GetComponent<IslandMover>();
+        gameEndCheck = false;
     }
 
     private void Update() {
         gameTimer -= Time.deltaTime;
-        if (gameTimer <= 0f && !islandScript.reachedEnd) {
+        if (gameTimer <= 0f) {
             gameTimer = 0f;
-            islandScript.reachedEnd = true;
+            if (!gameEndCheck) {
+                island.transform.position = new Vector3(island.transform.position.x - 0.003f, 0, 0);
+            }
         }
     }
 
@@ -34,7 +36,7 @@ public class GameManager : MonoBehaviour
     {
         score++;
         Debug.Log(score);
-        //scoreText.text = score.ToString();  
+        scoreText.text = score.ToString();  
     }
 
 }

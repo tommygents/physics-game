@@ -107,6 +107,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 5316449219001114015, guid: b78ed75a18aeb4c96a1bbb6897c29261, type: 3}
+      propertyPath: m_Mass
+      value: 2.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5316449219360623330, guid: b78ed75a18aeb4c96a1bbb6897c29261, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -114,6 +118,14 @@ PrefabInstance:
     - target: {fileID: 5316449219360623333, guid: b78ed75a18aeb4c96a1bbb6897c29261, type: 3}
       propertyPath: m_ConnectedAnchor.y
       value: 6.672505
+      objectReference: {fileID: 0}
+    - target: {fileID: 5316449219360623335, guid: b78ed75a18aeb4c96a1bbb6897c29261, type: 3}
+      propertyPath: m_Mass
+      value: 17.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5316449220195638408, guid: b78ed75a18aeb4c96a1bbb6897c29261, type: 3}
+      propertyPath: m_Mass
+      value: 17.5
       objectReference: {fileID: 0}
     - target: {fileID: 5316449220195638411, guid: b78ed75a18aeb4c96a1bbb6897c29261, type: 3}
       propertyPath: m_Layer
@@ -134,6 +146,10 @@ PrefabInstance:
     - target: {fileID: 5316449220375480972, guid: b78ed75a18aeb4c96a1bbb6897c29261, type: 3}
       propertyPath: m_ConnectedAnchor.x
       value: 4.9300003
+      objectReference: {fileID: 0}
+    - target: {fileID: 5316449220375480974, guid: b78ed75a18aeb4c96a1bbb6897c29261, type: 3}
+      propertyPath: m_Mass
+      value: 22.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b78ed75a18aeb4c96a1bbb6897c29261, type: 3}
@@ -251,6 +267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalTime: 0.3
+  ac: {fileID: 0}
   timeInBoat: 0
   gameManager: {fileID: 0}
   debugGameManagerSet: 0

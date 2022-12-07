@@ -5,7 +5,7 @@ using UnityEngine;
 public class PianoManager : MonoBehaviour
 {
 
-    [SerializeField] private float pushForce = 5.5f;
+    [SerializeField] private float pushForce = 5f;
 
     private List<Rigidbody2D> pianoKeys;
 

@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class IslandMover : MonoBehaviour
@@ -10,7 +12,6 @@ public class IslandMover : MonoBehaviour
 
     private void Update() {
         if (reachedEnd) {
-            transform.position.x -= 4;
         }
     }
 }
