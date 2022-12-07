@@ -13,6 +13,10 @@ public class AnimalSpawner : MonoBehaviour
     private int thisLayer;
     public GameManager gameManager;
     public float goalTime = .3f;
+    public float delayTime = .5f;
+
+    
+    public int numAnimalsMax = 3;
 
 
 
@@ -24,13 +28,42 @@ public class AnimalSpawner : MonoBehaviour
     private void Start()
     {
         thisLayer = this.gameObject.layer;
-        InvokeRepeating("spawnAnimalInvoke", 5, 1);
+        //InvokeRepeating("spawnAnimalInvoke", 5, 1);
+        Invoke(nameof(StartSpawn), 5f);
     }
 
-    //spawns an animal
-    public void spawnAnimal(GameObject animalgo)
+   public void StartSpawn()
     {
-        GameObject animal = Instantiate(animalgo);
+        StartCoroutine(Spawn());
+        Debug.Log("Co-routine started");
+    }
+    public IEnumerator Spawn()
+    {
+        Debug.Log("Co-routine looped");
+        while (true)
+        {
+            spawnAnimalCoRoutine();
+            yield return new WaitForSeconds(delayTime);
+            yield return new WaitUntil(() => gameManager.numAnimals < numAnimalsMax);
+        }
+
+        //yield return null;
+
+    }
+
+    public void spawnAnimalCoRoutine()
+    {
+        GameObject go = animalPrefabs[Random.Range(0, animalPrefabs.Length)];
+        GameObject animal = Instantiate(go);
+        SetGameLayerRecursive(animal, thisLayer);
+        animal.transform.localScale = new Vector3(.5f, .5f, .5f);
+        animal.transform.position = this.gameObject.transform.position + new Vector3(Random.Range(-tubSize / 2, tubSize / 2), 0, 0);
+        //AnimalControl ac = animal.GetComponent<AnimalControl>();
+        //ac.SetGameManager(gameManager);
+        SetGameManagerRecursive(animal, gameManager);
+        gameManager.numAnimals++;
+
+
 
     }
 
@@ -45,7 +78,8 @@ public class AnimalSpawner : MonoBehaviour
         //AnimalControl ac = animal.GetComponent<AnimalControl>();
         //ac.SetGameManager(gameManager);
         SetGameManagerRecursive(animal, gameManager);
-        
+        gameManager.numAnimals++;
+
 
 
     }

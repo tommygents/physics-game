@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 
     public int score;
     public TextMeshProUGUI scoreText;
+    public int numAnimals = 0;
+    public int numAnimalsMax = 3;
 
 
     private void Start()

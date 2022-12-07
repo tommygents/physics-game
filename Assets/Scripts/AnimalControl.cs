@@ -12,7 +12,7 @@ public class AnimalControl : MonoBehaviour
     public float goalTime = .3f;
     [SerializeField] private float timeInBoat = 0;
 
-    //Utility variables
+    //Utility variables to talk to other programs
     public GameManager gameManager;
     public bool debugGameManagerSet = false;
 
@@ -20,20 +20,40 @@ public class AnimalControl : MonoBehaviour
     private float scoreTimer;
     private bool inBoat;
 
+    // position variables to check to make sure we're within the tub
+    public float tubXBound = 9.5f;
+    public Transform locationTransform;
+
     private void Start() {
         scoreTimer = 0.5f;
         inBoat = false;
+        if (GetComponentInParent<Transform>() != null)
+        {
+            locationTransform = GetComponentInParent<Transform>();
+        }
+        else
+        {
+            locationTransform = this.transform;
+        }
+
     }
 
     private void Update() {
+        //first check to see if the animal has been in the boat long enough to score
         if (inBoat) {
             scoreTimer -= Time.deltaTime;
             if (scoreTimer <= 0f) {
-                DestroyAnimal();
+                DestroyThisAnimal();
                 this.gameManager.IncrementScore();
                 scoreTimer = 0.5f;
                 inBoat = false;
             }
+            // then see if the animal is out of bounds
+            if (transform.position.x < -tubXBound || transform.position.x > tubXBound)
+            {
+                DestroyThisAnimal();
+            }
+
         }
     }
 
@@ -46,7 +66,7 @@ public class AnimalControl : MonoBehaviour
         if (other.gameObject.CompareTag("Piston"))
         {
 
-            DestroyAnimal();
+            DestroyThisAnimal();
         }
     }
 
@@ -100,8 +120,9 @@ public class AnimalControl : MonoBehaviour
     }
 
 
-    public void DestroyAnimal()
+    public void DestroyThisAnimal()
     {
+
         if (transform.parent.gameObject != null)
         {
             Destroy(this.transform.parent.gameObject);
@@ -117,6 +138,7 @@ public class AnimalControl : MonoBehaviour
     {
         AudioSource ac = GetComponent<AudioSource>();
         //this.gameManager.IncrementScore();
-        ac.Play();
+        //ac.Play();
+        gameManager.numAnimals--;
     }
 }
