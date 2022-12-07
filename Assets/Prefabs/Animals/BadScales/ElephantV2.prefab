@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2868713815130337093}
   - component: {fileID: 2868713815130337090}
   - component: {fileID: 2868713815130337089}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EleNose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 2868713815132555785}
   - component: {fileID: 2868713815132555784}
   - component: {fileID: 2868713815132555787}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ElephantV2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 2868713816262795334}
   - component: {fileID: 2868713816262795335}
   - component: {fileID: 2868713816262795330}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EleTail
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -13,6 +13,10 @@ public class AnimalSpawner : MonoBehaviour
     private int thisLayer;
     public GameManager gameManager;
     public float goalTime = .3f;
+    public float delayTime = .5f;
+
+    
+    public int numAnimalsMax = 3;
 
 
 
@@ -21,23 +25,45 @@ public class AnimalSpawner : MonoBehaviour
 
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        thisLayer = this.gameObject.layer;  
-        InvokeRepeating("spawnAnimalInvoke", 5, 1);
+        thisLayer = this.gameObject.layer;
+        //InvokeRepeating("spawnAnimalInvoke", 5, 1);
+        Invoke(nameof(StartSpawn), 5f);
     }
 
-    // Update is called once per frame
-    void Update()
+   public void StartSpawn()
     {
-        
+        StartCoroutine(Spawn());
+        Debug.Log("Co-routine started");
+    }
+    public IEnumerator Spawn()
+    {
+        Debug.Log("Co-routine looped");
+        while (true)
+        {
+            spawnAnimalCoRoutine();
+            yield return new WaitForSeconds(delayTime);
+            yield return new WaitUntil(() => gameManager.numAnimals < numAnimalsMax);
+        }
+
+        //yield return null;
 
     }
 
-    //spawns an animal
-    public void spawnAnimal(GameObject animalgo)
+    public void spawnAnimalCoRoutine()
     {
-        GameObject animal = Instantiate(animalgo);
+        GameObject go = animalPrefabs[Random.Range(0, animalPrefabs.Length)];
+        GameObject animal = Instantiate(go);
+        SetGameLayerRecursive(animal, thisLayer);
+        animal.transform.localScale = new Vector3(.5f, .5f, .5f);
+        animal.transform.position = this.gameObject.transform.position + new Vector3(Random.Range(-tubSize / 2, tubSize / 2), 0, 0);
+        //AnimalControl ac = animal.GetComponent<AnimalControl>();
+        //ac.SetGameManager(gameManager);
+        SetGameManagerRecursive(animal, gameManager);
+        gameManager.numAnimals++;
+
+
 
     }
 
@@ -47,12 +73,13 @@ public class AnimalSpawner : MonoBehaviour
         GameObject go = animalPrefabs[Random.Range(0, animalPrefabs.Length)];
         GameObject animal = Instantiate(go);
         SetGameLayerRecursive(animal, thisLayer);
-        animal.transform.localScale = new Vector3(.2f, .2f, .2f);
+        animal.transform.localScale = new Vector3(.5f, .5f, .5f);
         animal.transform.position = this.gameObject.transform.position + new Vector3(Random.Range(-tubSize/2, tubSize/2),0,0);
-        AnimalControl ac = animal.GetComponent<AnimalControl>();
+        //AnimalControl ac = animal.GetComponent<AnimalControl>();
         //ac.SetGameManager(gameManager);
         SetGameManagerRecursive(animal, gameManager);
-        ac.goalTime = goalTime;
+        gameManager.numAnimals++;
+
 
 
     }
@@ -78,6 +105,7 @@ public class AnimalSpawner : MonoBehaviour
         foreach (AnimalControl ac in _ac)
         {
             ac.SetGameManager(_gm);
+            ac.goalTime = goalTime;
 
         }
     }

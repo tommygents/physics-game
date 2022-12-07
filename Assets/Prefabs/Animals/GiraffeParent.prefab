@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3619927020664997601}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GiraffeParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103,9 +103,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: GiraffeBodyV4
       objectReference: {fileID: 0}
+    - target: {fileID: 5316449219001114010, guid: b78ed75a18aeb4c96a1bbb6897c29261, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5316449219360623330, guid: b78ed75a18aeb4c96a1bbb6897c29261, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5316449219360623333, guid: b78ed75a18aeb4c96a1bbb6897c29261, type: 3}
       propertyPath: m_ConnectedAnchor.y
       value: 6.672505
+      objectReference: {fileID: 0}
+    - target: {fileID: 5316449220195638411, guid: b78ed75a18aeb4c96a1bbb6897c29261, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5316449220195638414, guid: b78ed75a18aeb4c96a1bbb6897c29261, type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -114,6 +126,10 @@ PrefabInstance:
     - target: {fileID: 5316449220195638414, guid: b78ed75a18aeb4c96a1bbb6897c29261, type: 3}
       propertyPath: m_ConnectedAnchor.y
       value: 4.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 5316449220375480969, guid: b78ed75a18aeb4c96a1bbb6897c29261, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5316449220375480972, guid: b78ed75a18aeb4c96a1bbb6897c29261, type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -139,7 +155,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalTime: 0.3
-  inBoat: 0
   timeInBoat: 0
   gameManager: {fileID: 0}
   debugGameManagerSet: 0

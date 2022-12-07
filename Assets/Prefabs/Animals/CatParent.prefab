@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3404841944566523246}
   - component: {fileID: 2147116130230745611}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CatParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,6 +136,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3404841944566523246}
     m_Modifications:
+    - target: {fileID: 4260451347663701092, guid: 04acfde4356f34d3ab48ad63721495fa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260451348033801352, guid: 04acfde4356f34d3ab48ad63721495fa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4260451348635912332, guid: 04acfde4356f34d3ab48ad63721495fa, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -185,6 +193,10 @@ PrefabInstance:
       value: CatBody
       objectReference: {fileID: 0}
     - target: {fileID: 4260451348635912334, guid: 04acfde4356f34d3ab48ad63721495fa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260451348635912334, guid: 04acfde4356f34d3ab48ad63721495fa, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -208,7 +220,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalTime: 0.3
-  inBoat: 0
   timeInBoat: 0
   gameManager: {fileID: 0}
   debugGameManagerSet: 0

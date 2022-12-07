@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 427429241672536612}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LionParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,6 +47,14 @@ PrefabInstance:
       propertyPath: m_ConnectedAnchor.y
       value: 10.336002
       objectReference: {fileID: 0}
+    - target: {fileID: 4236500744340305525, guid: b504d109cb04c4dd4ae81a8b803f171f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4236500744412053697, guid: b504d109cb04c4dd4ae81a8b803f171f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4236500745225477976, guid: b504d109cb04c4dd4ae81a8b803f171f, type: 3}
       propertyPath: m_Material
       value: 
@@ -62,6 +70,10 @@ PrefabInstance:
     - target: {fileID: 4236500745225477980, guid: b504d109cb04c4dd4ae81a8b803f171f, type: 3}
       propertyPath: m_Name
       value: LionBody
+      objectReference: {fileID: 0}
+    - target: {fileID: 4236500745225477980, guid: b504d109cb04c4dd4ae81a8b803f171f, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4236500745225477980, guid: b504d109cb04c4dd4ae81a8b803f171f, type: 3}
       propertyPath: m_IsActive
@@ -111,6 +123,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4236500745225477983, guid: b504d109cb04c4dd4ae81a8b803f171f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4236500745681612711, guid: b504d109cb04c4dd4ae81a8b803f171f, type: 3}
       propertyPath: m_ConnectedAnchor.x
       value: -9.336062
@@ -118,6 +134,14 @@ PrefabInstance:
     - target: {fileID: 4236500745681612711, guid: b504d109cb04c4dd4ae81a8b803f171f, type: 3}
       propertyPath: m_ConnectedAnchor.y
       value: 10.036958
+      objectReference: {fileID: 0}
+    - target: {fileID: 4236500745681612728, guid: b504d109cb04c4dd4ae81a8b803f171f, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4236500745681612730, guid: b504d109cb04c4dd4ae81a8b803f171f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b504d109cb04c4dd4ae81a8b803f171f, type: 3}
@@ -144,7 +168,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalTime: 0.3
-  inBoat: 0
   timeInBoat: 0
   gameManager: {fileID: 0}
   debugGameManagerSet: 0

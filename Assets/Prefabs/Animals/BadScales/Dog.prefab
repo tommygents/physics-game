@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1444503308869383824}
   - component: {fileID: 1444503308869383830}
   - component: {fileID: 1444503308869383825}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DogThighLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 1444503309540349140}
   - component: {fileID: 1444503309540349141}
   - component: {fileID: 1444503309540349146}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DogFootRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -328,7 +328,7 @@ GameObject:
   - component: {fileID: 1444503309786251383}
   - component: {fileID: 1444503309786251380}
   - component: {fileID: 1444503309786251381}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DogHead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -486,7 +486,7 @@ GameObject:
   - component: {fileID: 1444503309851562647}
   - component: {fileID: 1444503309851562644}
   - component: {fileID: 1444503309851562645}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Dog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -636,7 +636,7 @@ GameObject:
   - component: {fileID: 1444503309863581871}
   - component: {fileID: 1444503309863581868}
   - component: {fileID: 1444503309863581869}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DogTail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -792,7 +792,7 @@ GameObject:
   - component: {fileID: 1444503309971392396}
   - component: {fileID: 1444503309971392397}
   - component: {fileID: 1444503309971392498}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DogLegsFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -948,7 +948,7 @@ GameObject:
   - component: {fileID: 1444503310216264395}
   - component: {fileID: 1444503310216264392}
   - component: {fileID: 1444503310216264393}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DogFootLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1103,7 +1103,7 @@ GameObject:
   - component: {fileID: 1444503310243356110}
   - component: {fileID: 1444503310243356108}
   - component: {fileID: 1444503310243356111}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DogThighRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
