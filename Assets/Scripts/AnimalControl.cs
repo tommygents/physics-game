@@ -54,8 +54,7 @@ public class AnimalControl : MonoBehaviour
             // then see if the animal is out of bounds
             if (transform.position.x < -tubXBound || transform.position.x > tubXBound || transform.position.y < -100)
             {
-                Debug.Log("Out of Bounds");
-                DestroyThisAnimal();
+             DestroyThisAnimal();
             }
 
         
