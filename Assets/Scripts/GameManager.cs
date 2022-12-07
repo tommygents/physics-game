@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
     {
         score++;
         Debug.Log(score);
-        scoreText.text = score.ToString();  
+        //scoreText.text = score.ToString();  
     }
 
 }
