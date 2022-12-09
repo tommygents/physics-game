@@ -9,8 +9,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8934248109127310842}
+<<<<<<< HEAD:Assets/Prefabs/Animals/1207Weight/PigParent.prefab
   - component: {fileID: 1960888019898430261}
   m_Layer: 0
+=======
+  m_Layer: 6
+>>>>>>> bdad023a6d5e27a2b3f642326c5bc188be1613a8:Assets/Prefabs/Animals/PigParent.prefab
   m_Name: PigParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33,6 +37,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Assets/Prefabs/Animals/1207Weight/PigParent.prefab
 --- !u!114 &1960888019898430261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45,6 +50,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7853bcffe75211f47acbe838ee7629b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> bdad023a6d5e27a2b3f642326c5bc188be1613a8:Assets/Prefabs/Animals/PigParent.prefab
 --- !u!1001 &211098309166993819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52,6 +59,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8934248109127310842}
     m_Modifications:
+    - target: {fileID: 2291825723364021647, guid: d79bd29503b8244a9871cb9e6afdfb3b, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5326640491883750302, guid: d79bd29503b8244a9871cb9e6afdfb3b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -96,13 +107,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5326640491883750304, guid: d79bd29503b8244a9871cb9e6afdfb3b, type: 3}
+      propertyPath: m_Mass
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5326640491883750306, guid: d79bd29503b8244a9871cb9e6afdfb3b, type: 3}
       propertyPath: m_Name
       value: pig
-      objectReference: {fileID: 0}
-    - target: {fileID: 5326640491883750306, guid: d79bd29503b8244a9871cb9e6afdfb3b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d79bd29503b8244a9871cb9e6afdfb3b, type: 3}
@@ -111,6 +122,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5326640491883750302, guid: d79bd29503b8244a9871cb9e6afdfb3b, type: 3}
   m_PrefabInstance: {fileID: 211098309166993819}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Assets/Prefabs/Animals/1207Weight/PigParent.prefab
 --- !u!1 &5404881974758535737 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5326640491883750306, guid: d79bd29503b8244a9871cb9e6afdfb3b, type: 3}
@@ -128,3 +140,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7853bcffe75211f47acbe838ee7629b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> bdad023a6d5e27a2b3f642326c5bc188be1613a8:Assets/Prefabs/Animals/PigParent.prefab

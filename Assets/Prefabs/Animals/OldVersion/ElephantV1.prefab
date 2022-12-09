@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2833036030724125337}
   - component: {fileID: 2833036030724125338}
   - component: {fileID: 2833036030724125339}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EleHead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 277167689
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 7d4315a8d9daf4f4a8c2da4d26dd4519, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -135,7 +135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2833036030794731685}
   - component: {fileID: 2833036030794731686}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WholeElephant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,7 +219,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2833036031154941023}
   - component: {fileID: 2833036031154941088}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ElephantV1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -275,7 +275,7 @@ GameObject:
   - component: {fileID: 2833036031183118649}
   - component: {fileID: 2833036031183118650}
   - component: {fileID: 2833036031183118651}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EleBackLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,7 +336,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 277167689
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ec58ea995c7da4ab7a77cd76ae3dbe29, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -399,7 +399,7 @@ GameObject:
   - component: {fileID: 2833036032068369124}
   - component: {fileID: 2833036032068369125}
   - component: {fileID: 5516562829958379752}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EleTrunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -465,7 +465,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 277167689
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2384ba4efbd30465485b03bf553141fc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -547,7 +547,7 @@ GameObject:
   - component: {fileID: 2833036032211159811}
   - component: {fileID: 2833036032211159812}
   - component: {fileID: 2833036032211159813}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EleNose
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -676,7 +676,7 @@ GameObject:
   - component: {fileID: 2833036032211203300}
   - component: {fileID: 2833036032211203301}
   - component: {fileID: 2833036032211203302}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EleTail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -737,7 +737,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 277167689
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 35cab9658f5a240139eef6c0e9544c6c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -793,7 +793,7 @@ GameObject:
   - component: {fileID: 2833036032679681428}
   - component: {fileID: 2833036032679681429}
   - component: {fileID: 2833036032679681430}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EleFrontLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -854,7 +854,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 277167689
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: be9a0aeb893df4ccabfd872a8d12717a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

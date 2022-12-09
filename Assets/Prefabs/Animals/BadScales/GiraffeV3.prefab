@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5316449218745587930}
   - component: {fileID: 5316449218745587929}
   - component: {fileID: 5316449218745587928}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GirLegRearLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5316449218875387698}
   - component: {fileID: 5316449218875387699}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1GiraffeWhole 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -255,7 +255,7 @@ GameObject:
   - component: {fileID: 5316449218963211092}
   - component: {fileID: 5316449218963211083}
   - component: {fileID: 5316449218963211082}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GirLegForeRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -409,7 +409,7 @@ GameObject:
   - component: {fileID: 5316449219001114009}
   - component: {fileID: 5316449219001114015}
   - component: {fileID: 5316449219001114014}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GiraffeV3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -566,7 +566,7 @@ GameObject:
   - component: {fileID: 5316449219243758272}
   - component: {fileID: 5316449219243758279}
   - component: {fileID: 5316449219243758278}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GirLegForeLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -722,7 +722,7 @@ GameObject:
   - component: {fileID: 5316449219360623335}
   - component: {fileID: 5316449219360623334}
   - component: {fileID: 5316449219360623333}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GiraffeHead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -878,7 +878,7 @@ GameObject:
   - component: {fileID: 5316449220195638408}
   - component: {fileID: 5316449220195638415}
   - component: {fileID: 5316449220195638414}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GiraffeTail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1035,7 +1035,7 @@ GameObject:
   - component: {fileID: 5316449220375480974}
   - component: {fileID: 5316449220375480973}
   - component: {fileID: 5316449220375480972}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GiraffeNeck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1192,7 +1192,7 @@ GameObject:
   - component: {fileID: 5316449220553542358}
   - component: {fileID: 5316449220553542357}
   - component: {fileID: 5316449220553542356}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GirLegRearRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}

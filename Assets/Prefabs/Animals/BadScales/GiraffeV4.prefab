@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5316449219001114009}
   - component: {fileID: 5316449219001114014}
   - component: {fileID: 5316449219001114015}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GiraffeV4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -161,7 +161,7 @@ GameObject:
   - component: {fileID: 5316449219360623335}
   - component: {fileID: 5316449219360623334}
   - component: {fileID: 5316449219360623333}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GiraffeHead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,7 +317,7 @@ GameObject:
   - component: {fileID: 5316449220195638408}
   - component: {fileID: 5316449220195638415}
   - component: {fileID: 5316449220195638414}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GiraffeTail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -474,7 +474,7 @@ GameObject:
   - component: {fileID: 5316449220375480974}
   - component: {fileID: 5316449220375480973}
   - component: {fileID: 5316449220375480972}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GiraffeNeck
   m_TagString: Untagged
   m_Icon: {fileID: 0}

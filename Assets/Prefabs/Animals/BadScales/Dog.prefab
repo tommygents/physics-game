@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1444503308869383824}
   - component: {fileID: 1444503308869383830}
   - component: {fileID: 1444503308869383825}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DogThighLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cfb9e0991a74849ef904f4c48845fcc2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -153,7 +153,7 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.01, y: 0.51}
-  m_ConnectedAnchor: {x: 4.6899986, y: -1.5966669}
+  m_ConnectedAnchor: {x: 4.6899996, y: -1.5966651}
   m_DampingRatio: 1
   m_Frequency: 10
 --- !u!1 &1444503309540349144
@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 1444503309540349140}
   - component: {fileID: 1444503309540349141}
   - component: {fileID: 1444503309540349146}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DogFootRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -312,7 +312,7 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0.7}
-  m_ConnectedAnchor: {x: 0.7866668, y: -1.0400009}
+  m_ConnectedAnchor: {x: 0.78666586, y: -1.0400002}
   m_DampingRatio: 1
   m_Frequency: 10
 --- !u!1 &1444503309786251387
@@ -328,7 +328,7 @@ GameObject:
   - component: {fileID: 1444503309786251383}
   - component: {fileID: 1444503309786251380}
   - component: {fileID: 1444503309786251381}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DogHead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -471,7 +471,7 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.65, y: -1.16}
-  m_ConnectedAnchor: {x: -3.6633332, y: 2.3266664}
+  m_ConnectedAnchor: {x: -3.6633334, y: 2.3266668}
   m_DampingRatio: 1
   m_Frequency: 10
 --- !u!1 &1444503309851562650
@@ -486,7 +486,9 @@ GameObject:
   - component: {fileID: 1444503309851562647}
   - component: {fileID: 1444503309851562644}
   - component: {fileID: 1444503309851562645}
-  m_Layer: 0
+  - component: {fileID: 6176330511807685054}
+  - component: {fileID: 437114278084641163}
+  m_Layer: 6
   m_Name: Dog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -502,7 +504,7 @@ Transform:
   m_GameObject: {fileID: 1444503309851562650}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.49, y: -3.25, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
+  m_LocalScale: {x: 0.124965005, y: 0.124965005, z: 0.124965005}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1444503309786251386}
@@ -623,6 +625,121 @@ PolygonCollider2D:
       - {x: -3.7552438, y: -2.8125753}
       - {x: -0.5070554, y: -3.3659966}
       - {x: 6.703339, y: 0.29280877}
+--- !u!82 &6176330511807685054
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444503309851562650}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c0ad6775e135242ab868d98d4127f418, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &437114278084641163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444503309851562650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7853bcffe75211f47acbe838ee7629b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goalTime: 0.3
+  ac: {fileID: 0}
+  timeInBoat: 0
+  gameManager: {fileID: 0}
+  debugGameManagerSet: 0
+  tubXBound: 9.5
+  locationTransform: {fileID: 0}
 --- !u!1 &1444503309863581843
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,7 +753,7 @@ GameObject:
   - component: {fileID: 1444503309863581871}
   - component: {fileID: 1444503309863581868}
   - component: {fileID: 1444503309863581869}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DogTail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -698,7 +815,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f5ccb981cdcab45ec9368449d1e61173, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -776,7 +893,7 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -1.77, y: -0.95}
-  m_ConnectedAnchor: {x: 3.4566686, y: -0.08333206}
+  m_ConnectedAnchor: {x: 3.4566677, y: -0.0833325}
   m_DampingRatio: 1
   m_Frequency: 5
 --- !u!1 &1444503309971392496
@@ -792,7 +909,7 @@ GameObject:
   - component: {fileID: 1444503309971392396}
   - component: {fileID: 1444503309971392397}
   - component: {fileID: 1444503309971392498}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DogLegsFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -854,7 +971,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ce339cb80c19e49acb32de1b813de512, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -932,7 +1049,7 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.17, y: 1.43}
-  m_ConnectedAnchor: {x: -2.8166676, y: -2.2433329}
+  m_ConnectedAnchor: {x: -2.8166683, y: -2.2433305}
   m_DampingRatio: 1
   m_Frequency: 10
 --- !u!1 &1444503310216264399
@@ -948,7 +1065,7 @@ GameObject:
   - component: {fileID: 1444503310216264395}
   - component: {fileID: 1444503310216264392}
   - component: {fileID: 1444503310216264393}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DogFootLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1087,7 +1204,7 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.06, y: 0.33}
-  m_ConnectedAnchor: {x: 0.71999866, y: -1.9033335}
+  m_ConnectedAnchor: {x: 0.7199968, y: -1.9033325}
   m_DampingRatio: 1
   m_Frequency: 10
 --- !u!1 &1444503310243356109
@@ -1103,7 +1220,7 @@ GameObject:
   - component: {fileID: 1444503310243356110}
   - component: {fileID: 1444503310243356108}
   - component: {fileID: 1444503310243356111}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DogThighRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1165,7 +1282,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: a7280d5483d064639827de962548f263, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1243,6 +1360,6 @@ FixedJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -0.84, y: 1.05}
-  m_ConnectedAnchor: {x: 2.786665, y: -1.2433321}
+  m_ConnectedAnchor: {x: 2.786665, y: -1.2433329}
   m_DampingRatio: 1
   m_Frequency: 10

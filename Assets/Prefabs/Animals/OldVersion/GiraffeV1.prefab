@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5510474353494073650}
   - component: {fileID: 5510474353494073649}
   - component: {fileID: 5510474353494073648}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GirLegRearLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5510474353615673050}
   - component: {fileID: 5510474353615673051}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 1GiraffeWhole 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -255,7 +255,7 @@ GameObject:
   - component: {fileID: 5510474353644763836}
   - component: {fileID: 5510474353644763811}
   - component: {fileID: 5510474353644763810}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GirLegForeRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -316,7 +316,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 277167689
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 38a74d383720d4b298ef05d08ad7d008, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -409,7 +409,7 @@ GameObject:
   - component: {fileID: 5510474353741341809}
   - component: {fileID: 5510474353741341815}
   - component: {fileID: 5510474353741341814}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GiraffeV1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -478,7 +478,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 277167689
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9b6dd4748e65a482da7395c3fe38affc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -566,7 +566,7 @@ GameObject:
   - component: {fileID: 5510474353918913320}
   - component: {fileID: 5510474353918913327}
   - component: {fileID: 5510474353918913326}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GirLegForeLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -627,7 +627,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 277167689
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 001d767f605b742828b1dab8b40b7dd5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -722,7 +722,7 @@ GameObject:
   - component: {fileID: 5510474354035880719}
   - component: {fileID: 5510474354035880718}
   - component: {fileID: 5510474354035880717}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GiraffeHead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -783,7 +783,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 277167689
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 29c67f9b195ec4a89adaa0e7f75513ce, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -881,7 +881,7 @@ GameObject:
   - component: {fileID: 5510474354946221408}
   - component: {fileID: 5510474354946221415}
   - component: {fileID: 5510474354946221414}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GiraffeTail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1038,7 +1038,7 @@ GameObject:
   - component: {fileID: 5510474355050804070}
   - component: {fileID: 5510474355050804069}
   - component: {fileID: 5510474355050804068}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GiraffeNeck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1099,7 +1099,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 277167689
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 445a94ca997c944b9ad14dd7f7f4d3a8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1196,7 +1196,7 @@ GameObject:
   - component: {fileID: 5510474355293745982}
   - component: {fileID: 5510474355293745981}
   - component: {fileID: 5510474355293745980}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GirLegRearRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1257,7 +1257,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 277167689
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: dbc6cd17bd55b4776a5f65db38bb20f5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

@@ -9,8 +9,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3404841944566523246}
+<<<<<<< HEAD:Assets/Prefabs/Animals/1207Weight/CatParent.prefab
   - component: {fileID: 7403331101206372197}
   m_Layer: 0
+=======
+  - component: {fileID: 2147116130230745611}
+  m_Layer: 6
+>>>>>>> bdad023a6d5e27a2b3f642326c5bc188be1613a8:Assets/Prefabs/Animals/CatParent.prefab
   m_Name: CatParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33,18 +38,114 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Assets/Prefabs/Animals/1207Weight/CatParent.prefab
 --- !u!114 &7403331101206372197
 MonoBehaviour:
+=======
+--- !u!82 &2147116130230745611
+AudioSource:
+>>>>>>> bdad023a6d5e27a2b3f642326c5bc188be1613a8:Assets/Prefabs/Animals/CatParent.prefab
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3404841944566523247}
   m_Enabled: 1
+<<<<<<< HEAD:Assets/Prefabs/Animals/1207Weight/CatParent.prefab
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7853bcffe75211f47acbe838ee7629b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 63d1d440c534249c7baa5f42259d8476, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+>>>>>>> bdad023a6d5e27a2b3f642326c5bc188be1613a8:Assets/Prefabs/Animals/CatParent.prefab
 --- !u!1001 &1468248627399817630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52,6 +153,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3404841944566523246}
     m_Modifications:
+    - target: {fileID: 4260451347663701092, guid: 04acfde4356f34d3ab48ad63721495fa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260451347663701097, guid: 04acfde4356f34d3ab48ad63721495fa, type: 3}
+      propertyPath: m_Mass
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260451348033801352, guid: 04acfde4356f34d3ab48ad63721495fa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260451348033801356, guid: 04acfde4356f34d3ab48ad63721495fa, type: 3}
+      propertyPath: m_Mass
+      value: 1.25
+      objectReference: {fileID: 0}
     - target: {fileID: 4260451348635912332, guid: 04acfde4356f34d3ab48ad63721495fa, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -101,8 +218,16 @@ PrefabInstance:
       value: CatBody
       objectReference: {fileID: 0}
     - target: {fileID: 4260451348635912334, guid: 04acfde4356f34d3ab48ad63721495fa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260451348635912334, guid: 04acfde4356f34d3ab48ad63721495fa, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260451348635912338, guid: 04acfde4356f34d3ab48ad63721495fa, type: 3}
+      propertyPath: m_Mass
+      value: 0.75
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04acfde4356f34d3ab48ad63721495fa, type: 3}
@@ -111,6 +236,102 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4260451348635912334, guid: 04acfde4356f34d3ab48ad63721495fa, type: 3}
   m_PrefabInstance: {fileID: 1468248627399817630}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1014073414400797560
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3404841943326912784}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 63d1d440c534249c7baa5f42259d8476, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!114 &473464056615411303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,6 +344,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7853bcffe75211f47acbe838ee7629b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:Assets/Prefabs/Animals/1207Weight/CatParent.prefab
+=======
+  goalTime: 0.3
+  ac: {fileID: 0}
+  timeInBoat: 0
+  gameManager: {fileID: 0}
+  debugGameManagerSet: 0
+  tubXBound: 9.5
+  locationTransform: {fileID: 0}
+>>>>>>> bdad023a6d5e27a2b3f642326c5bc188be1613a8:Assets/Prefabs/Animals/CatParent.prefab
 --- !u!4 &3404841943326912786 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4260451348635912332, guid: 04acfde4356f34d3ab48ad63721495fa, type: 3}
