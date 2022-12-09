@@ -61,7 +61,15 @@ PrefabInstance:
       value: -1.5966651
       objectReference: {fileID: 0}
     - target: {fileID: 1444503308869383830, guid: 6931e60a210554908b11f30d0ea8c0da, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1444503308869383830, guid: 6931e60a210554908b11f30d0ea8c0da, type: 3}
       propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1444503309540349141, guid: 6931e60a210554908b11f30d0ea8c0da, type: 3}
+      propertyPath: m_Mass
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1444503309540349141, guid: 6931e60a210554908b11f30d0ea8c0da, type: 3}
@@ -161,6 +169,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1444503309863581868, guid: 6931e60a210554908b11f30d0ea8c0da, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1444503309863581868, guid: 6931e60a210554908b11f30d0ea8c0da, type: 3}
       propertyPath: m_Interpolate
       value: 1
       objectReference: {fileID: 0}
@@ -171,6 +183,10 @@ PrefabInstance:
     - target: {fileID: 1444503309863581869, guid: 6931e60a210554908b11f30d0ea8c0da, type: 3}
       propertyPath: m_ConnectedAnchor.y
       value: -0.0833325
+      objectReference: {fileID: 0}
+    - target: {fileID: 1444503309971392397, guid: 6931e60a210554908b11f30d0ea8c0da, type: 3}
+      propertyPath: m_Mass
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1444503309971392397, guid: 6931e60a210554908b11f30d0ea8c0da, type: 3}
       propertyPath: m_Interpolate
@@ -185,6 +201,10 @@ PrefabInstance:
       value: -2.2433305
       objectReference: {fileID: 0}
     - target: {fileID: 1444503310216264392, guid: 6931e60a210554908b11f30d0ea8c0da, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1444503310216264392, guid: 6931e60a210554908b11f30d0ea8c0da, type: 3}
       propertyPath: m_Interpolate
       value: 1
       objectReference: {fileID: 0}
@@ -195,6 +215,10 @@ PrefabInstance:
     - target: {fileID: 1444503310216264393, guid: 6931e60a210554908b11f30d0ea8c0da, type: 3}
       propertyPath: m_ConnectedAnchor.y
       value: -1.9033325
+      objectReference: {fileID: 0}
+    - target: {fileID: 1444503310243356108, guid: 6931e60a210554908b11f30d0ea8c0da, type: 3}
+      propertyPath: m_Mass
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1444503310243356108, guid: 6931e60a210554908b11f30d0ea8c0da, type: 3}
       propertyPath: m_Interpolate
