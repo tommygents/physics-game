@@ -14,12 +14,6 @@ public class ProgressBar : MonoBehaviour
         AnimateBar();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void AnimateBar()
     {
         LeanTween.scaleX(Bar, 1, time);
